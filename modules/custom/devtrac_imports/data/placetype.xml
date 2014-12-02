@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<placetypes>
+	<placetype>
+		<name>Schools</name>
+		<placetype>
+			<name>Primary School</name>
+			<placetype>
+				<name>Primary Private School</name>
+			</placetype>
+			<placetype>
+				<name>Public Government School</name>
+			</placetype>
+			     <placetype>
+        <name>Public Community School</name>
+      </placetype>
+		</placetype>
+		<placetype>
+			<name>Secondary School</name>
+			<placetype>
+				<name>Secondary Private School</name>
+			</placetype>
+			<placetype>
+				<name>Secondary Community School</name>
+			</placetype>
+			<placetype>
+				<name>Secondary Government School</name>
+			</placetype>
+		</placetype>
+
+		<placetype>
+			<name>Vocational School</name>
+			<placetype>
+				<name>Technical School</name>
+			</placetype>
+		</placetype>
+	</placetype>
+</placetypes>
