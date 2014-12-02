@@ -4,7 +4,6 @@ php:
   - 5.5
   - 5.4
   - 5.3
-  - composer self-update
 addons:
   firefox: "28.0"  
 matrix:
@@ -12,6 +11,7 @@ matrix:
     
 before_install:
   - "sudo apt-get update"
+  - composer self-update
   - sleep 3
 
 before_script:
