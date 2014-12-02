@@ -20,8 +20,6 @@ script:
   - "export DISPLAY=:99.0"
   - "sh -e /etc/init.d/xvfb start"
   - cd /home/travis/build/TddDoctor/withoutAname/
-  #- wget http://codeception.com/codecept.phar
-  #- php codecept.phar bootstrap
   #- ant run-tests
   #- TEST_EXIT=${PIPESTATUS[0]}
   #- TRAVIS_TEST_RESULT=$(! egrep -i "([0-9]+ fails)|(PHP Fatal error)|([0-9]+ exceptions)")$?
