@@ -19,7 +19,7 @@ before_script:
 script:
   - "export DISPLAY=:99.0"
   - "sh -e /etc/init.d/xvfb start"
-  - cd /home/travis/build/jenkinsge/DevtracAuto/
+  - cd /home/travis/build/TddDoctor/withoutAname/
   #- wget http://codeception.com/codecept.phar
   #- php codecept.phar bootstrap
   #- ant run-tests
