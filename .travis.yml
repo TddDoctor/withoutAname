@@ -11,7 +11,7 @@ matrix:
     
 before_install:
   - "sudo apt-get update"
-  - /home/travis/.phpenv/versions/5.5/bin/composer self-update
+  - composer self-update
   - sleep 3
 
 before_script:
