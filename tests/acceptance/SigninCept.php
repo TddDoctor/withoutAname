@@ -9,7 +9,7 @@ $I->see('Enter the password that accompanies your username.');
 $I->fillField('name','davert');
 $I->fillField('pass','qwerty');
 $I->click('Log in');
-$I->dontsee('davert');
+$I->see('davert');
 
 $I = new AcceptanceTester($scenario);
 $I->wantTo('log in as an anonymous user by clicking sign in link');
