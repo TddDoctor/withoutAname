@@ -43,3 +43,5 @@ $I->fillField('field_ftritem_lat_long[und][0][geom]','POINT (33.346199035645 2.9
 $I->click('Save');
 $I->seeLink('Change at least one district for the Field Trip.');
 $I->seeLink('Add a Site Report to the Field Trip.');
+$I->seeLink('Site Reports');
+$I->seeLink('Comments');
