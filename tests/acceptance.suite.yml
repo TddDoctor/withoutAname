@@ -11,4 +11,4 @@ modules:
         - AcceptanceHelper
     config:
         PhpBrowser:
-            url: 'http://test.devtrac.org/'
+            url: 'http://testtest.devtrac.org/'
