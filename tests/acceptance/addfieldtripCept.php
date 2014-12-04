@@ -32,7 +32,7 @@ $I->see('Site Report Type');
 $I->fillField('reporttype',1);
 $I->click('Submit');
 $I->see('Create Field Trip Report Item');
-$I->see('Content limited to 600 characters, remaining: 600');
+$I->see('Content limited to 600 characters');
 $I->amGoingTo('Add a field trip report Item to the roadside observation');
 $I->fillField('title','status report of north school');
 $I->selectOption('taxonomy_vocabulary_1[und]','- Health Centre');
