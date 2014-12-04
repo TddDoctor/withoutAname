@@ -26,5 +26,6 @@ $I->see('school farcilities and structure');
 $I->see('Purpose(s) of the Fieldtrip');
 $I->seeLink('Full Report');
 $I->seeLink('Add a Site Report to the Field Trip.');
+$I->click('Add a Site Report to the Field Trip.');
 $I->amGoingTo('Add a Site Report to the Field Trip');
 $I->fillField('reporttype',1);
