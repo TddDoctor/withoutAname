@@ -32,5 +32,12 @@ $I->see('Site Report Type');
 $I->fillField('reporttype',1);
 $I->click('Submit');
 $I->see('Create Field Trip Report Item');
+$I->see('Content limited to 600 characters, remaining: 600');
 $I->amGoingTo('Add a field trip report Item to the roadside observation');
-
+$I->fillField('title','status report of north school');
+$I->selectOption('taxonomy_vocabulary_1[und]','- Health Centre');
+$I->fillField('field_ftritem_public_summary[und][0][value]','this is intended for testing only not for demostration purposeses');
+$I->fillField('field_ftritem_narrative[und][0][value]','this is intended for testing only not for demostration purposesesthis is intended for testing only not for demostration purposesesthis is intended for testing only not for demostration purposesesvthis is intended for testing only not for demostration purposeses')
+$I->see('Did you take any photos during the reporting? Please upload the images from here. Click "Choose File" to access the images on your computer.')
+$I->fillField('field_place_lat_long[und][0][geom]', 'POINT (33.346199035645 2.911979913712)');
+$I->click('Save');
