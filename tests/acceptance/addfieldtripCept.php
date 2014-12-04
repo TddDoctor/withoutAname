@@ -28,4 +28,9 @@ $I->seeLink('Full Report');
 $I->seeLink('Add a Site Report to the Field Trip.');
 $I->click('Add a Site Report to the Field Trip.');
 $I->amGoingTo('Add a Site Report to the Field Trip');
+$I->see('Site Report Type');
 $I->fillField('reporttype',1);
+$I->click('Submit');
+$I->see('Create Field Trip Report Item');
+$I->amGoingTo('Add a field trip report Item to the roadside observation');
+
