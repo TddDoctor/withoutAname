@@ -23,7 +23,7 @@ $I->fillField('field_fieldtrip_fc_purpose[und][0][field_fieldtrip_purpose_percen
 $I->amGoingTo('submit field trip form');
 $I->click('Save');
 $I->dontsee('Field Trip twenty has been created.');
-$I->see('school performance in the west');
+$I->see('health centers performance in the west');
 $I->see('Purpose(s) of the Fieldtrip');
 $I->seeLink('Full Report');
 $I->seeLink('Add a Site Report to the Field Trip.');
