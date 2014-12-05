@@ -16,7 +16,7 @@ $I->dontsee('Welcome, admin');
 $I->dontsee('filling in all mandatory fields.');
 $I->dontseeLink('finish filling in your full profile');
 $I->click('Add Field Trip');
-$I->fillField('title','school performance in the west');
+$I->fillField('title','health centers performance in the west');
 $I->fillField('field_fieldtrip_internal_id[und][0][value]','12dew');
 $I->selectOption('field_fieldtrip_fc_purpose[und][0][field_fieldtrip_fc_purpose_purps][und]','fieldwork');
 $I->fillField('field_fieldtrip_fc_purpose[und][0][field_fieldtrip_purpose_percent][und][0][value]',100);
@@ -39,9 +39,16 @@ $I->fillField('taxonomy_vocabulary_1[und][0][tid]',267);
 $I->fillField('field_place_lat_long[und][0][geom]', 'POINT (33.346199035645 2.911979913712)');
 $I->amGoingTo('add a place');
 $I->click('Save');
-$I->see('Create Location');
+$I->dontsee('Create Location');
+$I->dontseeLink('Change at least one district for the Field Trip.');
+$I->seeLink('Change the sectors of Human Interest Story at health centers performance in the west.');
+$I->seeLink('Change the images of Human Interest Story at health centers performance in the west');
+$I->seeLink('Change the narrative of Human Interest Story at health centers performance in the west.');
+$I->seeLink('Change the public summary of Human Interest Story at health centers performance in the west.');
+$I->dontseeLink('Change the images of status report of health centers performance in the west.');
+$I->dontseeLink('Change the sectors of status report of health centers performance in the west.');
 $I->dontseeLink('Undefined Area');
-$I->dontseeLink('Change the sectors of Human Interest Story at school performance in the west');
+
 
 
 
