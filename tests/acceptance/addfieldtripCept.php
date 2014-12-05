@@ -64,5 +64,5 @@ $I->see('This comment on the fieldtrip report item is for testing purpose that i
 $I->see('Add new comment');
 $I->amGoingTo('Add a new comment to comment menu item of the ftritem of the roadside observation');
 $I->fillField('comment_body[und][0][value]','This is a new comment');
-$I->amGoingTo('Click site report link on menu item of the ftritem of the roadside observation');
+$I->amGoingTo('Click site report link on menu item');
 $I->$I->seeLink('Site Reports');
