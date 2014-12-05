@@ -51,3 +51,5 @@ $I->amGoingTo('Click on the menu links on the field trip report item');
 $I->click('Comments');
 $I->see('Add new comment');
 $I->fillField('comment_body[und][0][value]','This comment on the fieldtrip report item is for testing purpose that is all!');
+$I->click('Save');
+$I->amGoingTo('Clic to comment menu item of the ftritem of the roadside observation');
