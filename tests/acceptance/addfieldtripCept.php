@@ -47,3 +47,7 @@ $I->dontseeLink('Change the images of status report of north school.');
 $I->seeLink('Add a Site Report to the Field Trip.');
 $I->seeLink('Site Reports');
 $I->seeLink('Comments');
+$I->amGoingTo('Click on the menu links on the field trip report item');
+$I->click('Comments');
+$I->see('Add new comment');
+$I->fillField('comment_body[und][0][value]','This comment on the fieldtrip report item is for testing purpose that is all!');
