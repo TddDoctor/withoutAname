@@ -68,5 +68,5 @@ $I->amGoingTo('Click site report link on menu item of the ftritem of the roadsid
 $I->seeLink('Site Reports');
 $I->click('Site Reports');
 $I->dontseeLink('Undefined Area');
-$I->see('Roadside Observation');
+$I->seeLink('Report Type');
 $I->seeLink('Site Report');
