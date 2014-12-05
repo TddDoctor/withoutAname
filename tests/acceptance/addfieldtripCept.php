@@ -43,8 +43,8 @@ $I->see('Did you take any photos during the reporting? Please upload the images 
 $I->see('Add a new Image');
 $I->fillField('field_ftritem_lat_long[und][0][geom]','POINT (33.346199035645 2.911979913712)');
 $I->click('Save');
-$I->seeLink('Change at least one district for the Field Trip.');
-$I->seeLink('Change the sectors of status report of north school.');
+$I->dontseeLink('Change at least one district for the Field Trip.');
+$I->dontseeLink('Change the sectors of status report of north school.');
 $I->dontseeLink('Change the images of status report of north school.');
 $I->seeLink('Add a Site Report to the Field Trip.');
 $I->seeLink('Site Reports');
