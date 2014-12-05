@@ -66,3 +66,6 @@ $I->amGoingTo('Add a new comment to comment menu item of the ftritem of the road
 $I->fillField('comment_body[und][0][value]','This is a new comment');
 $I->amGoingTo('Click site report link on menu item of the ftritem of the roadside observation');
 $I->seeLink('Site Reports');
+$I->click('Site Reports');
+$I->seeLink('status report of north school');
+$I->seeLink('Site Report');
