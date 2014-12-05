@@ -7,7 +7,6 @@ $I->click('Sign in');
 $I->dontsee('Enter your Devtrac Test The Tests username.');
 $I->see('Enter your Devtrac Test username.');
 $I->see('Enter the password that accompanies your username.');
-$I->dontsee('Enter your Devtrac Test username');
 $I->fillField('name','admin');
 $I->fillField('pass','admin');
 $I->click('Log in');
