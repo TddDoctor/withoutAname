@@ -56,6 +56,11 @@ $I->fillField('comment_body[und][0][value]','This comment on the fieldtrip repor
 $I->click('Save');
 $I->amGoingTo('Click to comment menu item of the ftritem of the roadside observation');
 $I->click('Comments');
+$I->see('Progress');
+$I->see('Site Reports');
 $I->see('Comments');
 $I->see('Submitted by');
 $I->see('This comment on the fieldtrip report item is for testing purpose that is all!');
+$I->see('Add new comment');
+$I->amGoingTo('Add a new comment to comment menu item of the ftritem of the roadside observation');
+$I->fillField('comment_body[und][0][value]','This is a new comment');
