@@ -13,7 +13,7 @@ $I->click('Log in');
 $I->amGoingTo('filling in the fieldtrip form elements');
 $I->seeLink('Add Field Trip');
 $I->see('Welcome, admin');
-$I->see('filling in all mandatory fields.');
+$I->dontsee('filling in all mandatory fields.');
 $I->dontseeLink('finish filling in your full profile');
 $I->click('Add Field Trip');
 $I->fillField('title','school farcilities and structure');
