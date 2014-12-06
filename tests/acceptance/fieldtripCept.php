@@ -42,7 +42,7 @@ $I->click('Save');
 $I->dontsee('Create Location');
 $I->dontseeLink('Change at least one district for the Field Trip.');
 $I->dontseeLink('Change the sectors of Human Interest Story at health centers performance in the west.');
-$I->seeLink('Change the images of Human Interest Story at health centers performance in the west');
+$I->dontseeLink('Change the images of Human Interest Story at health centers performance in the west');
 $I->dontseeLink('Change the narrative of Human Interest Story at health centers performance in the west.');
 $I->dontseeLink('Change the public summary of Human Interest Story at health centers performance in the west.');
 $I->dontseeLink('Change the images of status report of health centers performance in the west.');
