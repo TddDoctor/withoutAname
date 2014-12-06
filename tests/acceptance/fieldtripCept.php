@@ -33,7 +33,7 @@ $I->dontsee('Add a Location');
 $I->see('Select Location to visit for Field Trip');
 $I->click('Submit');
 $I->see('Create Location');
-$I->fillField('title','health far in gulu');
+$I->fillField('title','health far in mbra');
 $I->amGoingTo('Add click on the map');
 $I->fillField('taxonomy_vocabulary_1[und][0][tid]',267);
 $I->fillField('field_place_lat_long[und][0][geom]', 'POINT (33.346199035645 2.911979913712)');
@@ -47,7 +47,12 @@ $I->dontseeLink('Change the narrative of Human Interest Story at health centers 
 $I->dontseeLink('Change the public summary of Human Interest Story at health centers performance in the west.');
 $I->dontseeLink('Change the images of status report of health centers performance in the west.');
 $I->dontseeLink('Change the sectors of status report of health centers performance in the west.');
-$I->dontseeLink('Undefined Area');
+$I->seeLink('Undefined Area');
+$I->seeLink('Change the sectors of Human Interest Story at health far in mbra.');
+$I->dontseeLink('Change the images of Human Interest Story at health far in mbra.');
+$I->dontseeLink('Change the narrative of Human Interest Story at health far in mbra.');
+$I->dontseeLink('Change the public summary of Human Interest Story at health far in mbra.');
+
 
 
 
