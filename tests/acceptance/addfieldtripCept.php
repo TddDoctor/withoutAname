@@ -12,7 +12,7 @@ $I->fillField('pass','admin');
 $I->click('Log in');
 $I->amGoingTo('filling in the fieldtrip form elements');
 $I->seeLink('Add Field Trip');
-$I->dontsee('Welcome, admin');
+$I->see('Welcome, admin');
 $I->dontsee('filling in all mandatory fields.');
 $I->dontseeLink('finish filling in your full profile');
 $I->click('Add Field Trip');
