@@ -50,8 +50,8 @@ $I->dontseeLink('Change the sectors of status report of health centers performan
 $I->seeLink('Undefined Area');
 $I->seeLink('Change the sectors of Human Interest Story at health far in mbra.');
 $I->dontseeLink('Change the images of Human Interest Story at health far in mbra.');
-$I->dontseeLink('Change the narrative of Human Interest Story at health far in mbra.');
-$I->dontseeLink('Change the public summary of Human Interest Story at health far in mbra.');
+$I->seeLink('Change the narrative of Human Interest Story at health far in mbra.');
+$I->seeLink('Change the public summary of Human Interest Story at health far in mbra.');
 
 
 
