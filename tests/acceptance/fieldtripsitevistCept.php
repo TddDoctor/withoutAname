@@ -39,10 +39,13 @@ $I->fillField('field_place_lat_long[und][0][geom]', 'POINT (33.346199035645 2.91
 $I->amGoingTo('add a place');
 $I->click('Save');
 $I->seeLink('Undefined Area');
-$I->seeLink('Change the sectors of Human Interest Story at health far in north.');
+$I->seeLink('Change the sectors of Site Visit at health far in north.');
+$I->seeLink('Change the public summary of Site Visit at health far in north.');
+$I->seeLink('Change the narrative of Site Visit at health far in north.');
+$I->dontseeLink('Change the sectors of Human Interest Story at health far in north.');
 $I->dontseeLink('Change the images of Human Interest Story at health far in north.');
-$I->seeLink('Change the narrative of Human Interest Story at health far in mbra.');
-$I->seeLink('Change the public summary of Human Interest Story at health far in north.');
+$I->dontseeLink('Change the narrative of Human Interest Story at health far in mbra.');
+$I->dontseeLink('Change the public summary of Human Interest Story at health far in north.');
 $I->seeLink('Site Reports');
 $I->seeLink('Comments');
 $I->click('Site Reports');
