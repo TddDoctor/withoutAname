@@ -54,6 +54,10 @@ $I->seeLink('Change the narrative of Human Interest Story at health far in mbra.
 $I->seeLink('Change the public summary of Human Interest Story at health far in mbra.');
 $I->seeLink('Site Reports');
 $I->seeLink('Comments');
+$I->click('Site Reports');
+$I->dontseeLink('Undefined Area');
+$I->seeLink('Report Type');
+$I->seeLink('Site Report');
 
 
 
