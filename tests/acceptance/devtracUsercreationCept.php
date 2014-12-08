@@ -38,3 +38,19 @@ $I->see('Enter the password that accompanies your username.');
 $I->fillField('name','fieldworker');
 $I->fillField('pass','fieldworker');
 $I->click('Log in');
+$I->see('Welcome, fieldworker');
+$I->fillField('field_user_superior[und][0][target_id]','admin admin (1)');
+$I->click('Save');
+$I->see('fieldworker');
+$I->seeLink('admin admin');
+$I->see('About this User');
+$I->see('Am just a dummy fieldworker inteded for testing purposees only thank you.');
+$I->see('Department:');
+$I->seeLink('Open Action Items');
+$I->click('Open Action Items');
+$I->seeLink('Inbox');
+$I->click('Inbox');
+
+
+
+
