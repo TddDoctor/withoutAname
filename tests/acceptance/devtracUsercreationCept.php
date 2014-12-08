@@ -20,7 +20,7 @@ $I->fillField('mail','fieldworker@devtrac.com');
 $I->fillField('pass[pass1]','fieldworker');
 $I->fillField('pass[pass2]','fieldworker');
 $I->fillField('taxonomy_vocabulary_5[und]',9);
-$I->selectOption('field_user_superior[und][0][target_id]','admin');
+$I->fillField('field_user_superior[und][0][target_id]','admin');
 $I->selectOption('taxonomy_vocabulary_4[und]','Education');
 $I->fillField('field_user_firstname[und][0][value]','fieldworker');
 $I->fillField('field_user_surname[und][0][value]','fieldworker');
