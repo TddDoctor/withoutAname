@@ -52,9 +52,3 @@ $I->seeLink('Inbox');
 $I->click('Inbox');
 $I->seeLink('Add Field Trip');
 $I->seeLink('Edit My Profile');
-
-
-
-
-$I = new AcceptanceTester($scenario);
-$I->wantTo('Create ');
