@@ -50,6 +50,8 @@ $I->seeLink('Open Action Items');
 $I->click('Open Action Items');
 $I->seeLink('Inbox');
 $I->click('Inbox');
+$I->seeLink('Add Field Trip');
+$I->seeLink('Edit My Profile');
 
 
 
