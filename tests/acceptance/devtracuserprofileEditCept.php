@@ -1,6 +1,6 @@
 <?php 
 $I = new AcceptanceTester($scenario);
-$I->wantTo('Create users with different roles');
+$I->wantTo('Edit admin profile after login');
 $I->amOnPage('/');
 $I->click('Sign in');
 $I->dontsee('Enter your Devtrac Test The Tests username.');
@@ -47,3 +47,8 @@ $I->click('school farcilities and structure');
 $I->seeLink('Site Report');
 $I->seeLink('Undefined Area');
 $I->see('Site Visit');
+
+
+
+$I = new AcceptanceTester($scenario);
+$I->wantTo('Create users with different roles')
