@@ -39,7 +39,7 @@ $I->fillField('name','fieldworker');
 $I->fillField('pass','fieldworker');
 $I->click('Log in');
 $I->see('Welcome, fieldworker');
-$I->fillField('field_user_superior[und][0][target_id]','admin admin');
+$I->fillField('field_user_superior[und][0][target_id]','admin admin (1)');
 $I->click('Save');
 $I->see('fieldworker');
 $I->seeLink('admin admin');
