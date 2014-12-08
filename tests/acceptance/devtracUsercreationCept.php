@@ -14,7 +14,7 @@ $I->dontseeLink('Have you forgotten your password?');
 $I->see('Welcome, admin');
 $I->amGoingTo('submit user edit form/page');
 $I->click('Edit My Profile');
-$I->fillField('name','devtrac');
+$I->fillField('name','admin');
 $I->selectOption('taxonomy_vocabulary_5[und]','Supervisor');
 $I->fillField('field_user_superior[und][0][target_id]','admin');
 $I->selectOption('taxonomy_vocabulary_4[und]','Education');
