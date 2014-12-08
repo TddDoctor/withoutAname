@@ -35,7 +35,7 @@ $I->seeLink('Locations Created');
 $I->amGoingTo('click on each individual menu link on the user page');
 $I->seeLink('Open FieldTrips');
 $I->seeLink('Open Action Items');
-$I->dontseeLink('Team Members');
+$I->seeLink('Team Members');
 $I->see('1 of ');
 $I->click('Open FieldTrips');
 $I->seeLink('FieldTrips');
