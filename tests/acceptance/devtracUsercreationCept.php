@@ -26,3 +26,5 @@ $I->fillField('field_user_firstname[und][0][value]','fieldworker');
 $I->fillField('field_user_surname[und][0][value]','fieldworker');
 $I->fillField('field_user_aboutme[und][0][value]','Am just a dummy fieldworker inteded for testing purposees only thank you.');
 $I->click('Create new account');
+$I->click('Sign out');
+$I->seeLink('Sign in');
