@@ -29,6 +29,6 @@ $I->see('am here to test please dont worry am just a dummy admin');
 $I->seeLink('admin admin');
 $I->seeLink('health centers performance in the west');
 $I->seeLink('school farcilities and structure');
-$i->seeLink('FieldTrips');
+$I->seeLink('FieldTrips');
 $I->seeLink('Site Reports');
 $I->seeLink('Locations Created');
