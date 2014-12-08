@@ -1,6 +1,7 @@
 <?php 
 $I = new AcceptanceTester($scenario);
 $I->wantTo('Create users with different roles');
+$I->amOnPage('/user/login');
 $I->click('Sign in');
 $I->dontsee('Enter your Devtrac Test The Tests username.');
 $I->see('Enter your Devtrac Test username');
