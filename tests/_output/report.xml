@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="acceptance" tests="1" assertions="6" failures="0" errors="1" time="78.844789">
-    <testcase name="devtracUsercreation" file="/var/www/html/wtan/tests/acceptance/devtracUsercreationCept.php" feature="Create users with different roles" assertions="6" time="78.844789">
+  <testsuite name="acceptance" tests="1" assertions="3" failures="0" errors="1" time="53.808536">
+    <testcase name="devtracUsercreation" file="/var/www/html/wtan/tests/acceptance/devtracUsercreationCept.php" feature="Create users with different roles" assertions="3" time="53.808536">
       <error type="PHPUnit_Framework_ExceptionWrapper">create users with different roles (devtracUsercreationCept)
-GuzzleHttp\Exception\ConnectException: cURL error 28: Operation timed out after 30000 milliseconds with 154256 bytes received
+GuzzleHttp\Exception\ConnectException: cURL error 28: Operation timed out after 30000 milliseconds with 120677 bytes received
 
 /var/www/html/wtan/codecept.phar:7
 </error>
