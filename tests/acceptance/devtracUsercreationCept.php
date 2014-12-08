@@ -32,3 +32,8 @@ $I->seeLink('school farcilities and structure');
 $I->seeLink('FieldTrips');
 $I->seeLink('Site Reports');
 $I->seeLink('Locations Created');
+$I->amGoingTo('click on each individual menu link on the user page');
+$I->seeLink('Open FieldTrips');
+$I->seeLink('Open Action Items');
+$I->seeLink('Team Members');
+$I->see('1 of ');
