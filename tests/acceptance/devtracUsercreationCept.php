@@ -57,4 +57,4 @@ $I->seeLink('Edit My Profile');
 
 
 $I = new AcceptanceTester($scenario);
-$I->wantTo('Create ')
+$I->wantTo('Create ');
