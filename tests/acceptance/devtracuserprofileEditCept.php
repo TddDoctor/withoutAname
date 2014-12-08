@@ -47,8 +47,3 @@ $I->click('school farcilities and structure');
 $I->seeLink('Site Report');
 $I->seeLink('Undefined Area');
 $I->see('Site Visit');
-
-
-
-$I = new AcceptanceTester($scenario);
-$I->wantTo('Create users with different roles')
